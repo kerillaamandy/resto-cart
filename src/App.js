@@ -68,14 +68,7 @@ const Items =
   };
   
   
-  
-  
-  
-  
-  
-  
-  
-    return (
+return (
     <div>
       <div className="row">
       <Main array = {Items} onAdd={onAdd}/>

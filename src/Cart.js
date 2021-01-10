@@ -4,7 +4,7 @@ function Cart(props) {
     const { cartItems } = props;
 
     return (
-        <aside className="block col -1">
+        <aside className="block col-1">
             <h2>Cart</h2>
             <div>
                 {cartItems.length === 0 && <div>Cart is empty</div>}
